@@ -8,12 +8,13 @@ import ExLayout from './src/Buoi2/ExLayout';
 import DemoImage from './src/Buoi2/DemoImage';
 import BindingData from './src/Buoi3/BindingData';
 import ExUI from './src/Buoi3/ExUI';
-import RenderList from './src/Buoi3/RenderList';
+// import RenderList from './src/Buoi3/RenderList';
+import BaiTap from './src/Buoi3/BaiTap';
 
 //Stateful Component
 class App extends Component {
   render() {
-    return <RenderList />;
+    return <BaiTap />;
   }
 }
 
